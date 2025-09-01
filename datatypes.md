@@ -90,4 +90,13 @@ print(matrix[2][1])  # 8
 # List comprehension
 squares=[ i**2 for i in range(5)]
 print(squares) # [0, 1, 4, 9, 16]
+
+fruits = ["apple", "banana", "cherry"]
+numbers = [10, 20, 30, 40]
+
+print("apple" in fruits)  # True
+print(50 in numbers)
+
+for fruit in fruits:
+    print(fruit.upper())
 ```
