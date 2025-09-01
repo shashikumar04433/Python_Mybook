@@ -28,25 +28,34 @@ print(type(b))
 ```
 * Lists are ordered, mutable collections that can hold mixed types.
 * They are one of the most flexible and commonly used data types in Python.
+* Ordered and changeable
+* Can contain duplicates
+* Supports indexing, slicing, and nested lists
+
 fruits = ["apple", "grapes", "banana", "cherry"]
 print(fruits)
 
+# Inserting an element
 fruits[1] = 'orange'
 print(fruits)
 
+# printing or getting the particular range of list
 print(fruits[0::3])
 print(fruits[::-1])
 
+# List of Matrix
 matrix = [[1, 2], [3, 4]]
 print(matrix[1][0])
 
+# Copying and refering diff
 a = [1, 2, 3]
-b = a
-c = a[:]
+b = a // using the same memory 
+c = a[:] //copying into the new list
 b[0] = 100
 print(b)
 print(c)
 
+# Append and Insert diff
 nums = [5, 2, 9, 1]
 nums.append(7)
 nums.insert(2, 4)
