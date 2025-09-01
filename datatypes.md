@@ -54,4 +54,23 @@ print(nums)
 nums.sort()
 print(nums)
 
+fruits = ["apple", "banana", "cherry"]
+numbers = [10, 20, 30, 40]
+
+print(fruits)
+print(numbers)
+
+fruits[1]='orange' # adds the element and the index 1.
+print(fruits)
+
+fruits.append('mangoes') # adds the element at the end of the list
+print(fruits)
+
+
+fruits.remove('orange') # it can remove the desired one
+print(fruits)
+
+pop_element=fruits.pop() #it removes last element
+print(fruits)
+
 ```
