@@ -1,34 +1,51 @@
 # Python Built-in Data Types Examples
 
-This README demonstrates examples of Python’s built-in data types: **int**, **float**, **list**, and their usage.
-
----
-
-## 🔢 Integers (`int`)
-
-Python supports integers of arbitrary size.
-
 ```python
+# Integers
 big = 99999999999999999999999999
-print(big * big)  # works fine
+print(big * big)
 
-a = 10        # positive int
-b = -5        # negative int
-c = 0         # zero
+a = 10
+b = -5
+c = 0
 
-# Arithmetic
-print(a + b)      # 5
-print(a ** 3)     # 1000 (power)
-print(a // 3)     # 3 (floor division)
+print(a + b)
+print(a ** 3)
+print(a // 3)
 
-# Bitwise
-print(5 & 3)      # 1 (binary AND: 101 & 011 = 001)
+print(5 & 3)
 
-```
-# Float
+# Floats
 a = 3.193
 b = -2
 
 print(a + b)
-print(type(a))  # <class 'float'>
-print(type(b))  # <class 'int'>
+print(type(a))
+print(type(b))
+
+# Lists
+fruits = ["apple", "grapes", "banana", "cherry"]
+print(fruits)
+
+fruits[1] = 'orange'
+print(fruits)
+
+print(fruits[0::3])
+print(fruits[::-1])
+
+matrix = [[1, 2], [3, 4]]
+print(matrix[1][0])
+
+a = [1, 2, 3]
+b = a
+c = a[:]
+b[0] = 100
+print(b)
+print(c)
+
+nums = [5, 2, 9, 1]
+nums.append(7)
+nums.insert(2, 4)
+print(nums)
+nums.sort()
+print(nums)
