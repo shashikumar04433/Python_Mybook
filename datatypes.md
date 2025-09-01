@@ -25,6 +25,8 @@ print(a // 3)     # 3 (floor division)
 # Bitwise
 print(5 & 3)      # 1 (binary AND: 101 & 011 = 001)
 
+
+2.Float
 a = 3.193
 b = -2
 
