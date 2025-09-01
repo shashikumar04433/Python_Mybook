@@ -24,6 +24,8 @@ print(type(a))
 print(type(b))
 
 # Lists
+* Lists are ordered, mutable collections that can hold mixed types.
+* They are one of the most flexible and commonly used data types in Python.
 fruits = ["apple", "grapes", "banana", "cherry"]
 print(fruits)
 
