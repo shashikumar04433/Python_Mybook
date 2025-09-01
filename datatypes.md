@@ -39,7 +39,7 @@ print(fruits)
 fruits[1] = 'orange'
 print(fruits)
 
-# printing or getting the particular range of list
+# Slicing the list
 print(fruits[0::3])
 print(fruits[::-1])
 
