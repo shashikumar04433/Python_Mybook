@@ -24,3 +24,10 @@ print(a // 3)     # 3 (floor division)
 
 # Bitwise
 print(5 & 3)      # 1 (binary AND: 101 & 011 = 001)
+
+a = 3.193
+b = -2
+
+print(a + b)       # 1.193
+print(type(a))     # <class 'float'>
+print(type(b))     # <class 'int'>
