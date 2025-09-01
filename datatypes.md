@@ -99,4 +99,8 @@ print(50 in numbers)
 
 for fruit in fruits:
     print(fruit.upper())
+
+## Adding the additional string to existing variable.
+combined = fruits + ["mango", "pineapple"]
+print(combined)
 ```
