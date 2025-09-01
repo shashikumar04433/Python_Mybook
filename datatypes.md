@@ -82,4 +82,9 @@ print(fruits)
 pop_element=fruits.pop() #it removes last element
 print(fruits)
 
+# Nested lists
+matrix = [[1,2,3],[4,5,6],[7,8,9]]
+print(matrix[0][2])  # 3
+print(matrix[2][1])  # 8
+
 ```
