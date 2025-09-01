@@ -1,7 +1,7 @@
 # Python Built-in Data Types Examples
 
-```python
 # Integers
+```
 big = 99999999999999999999999999
 print(big * big)
 
@@ -14,16 +14,18 @@ print(a ** 3)
 print(a // 3)
 
 print(5 & 3)
-
+```
 # Floats
+```
 a = 3.193
 b = -2
 
 print(a + b)
 print(type(a))
 print(type(b))
-
+```
 # Lists
+```
 * Lists are ordered, mutable collections that can hold mixed types.
 * They are one of the most flexible and commonly used data types in Python.
 fruits = ["apple", "grapes", "banana", "cherry"]
@@ -51,3 +53,5 @@ nums.insert(2, 4)
 print(nums)
 nums.sort()
 print(nums)
+
+```
