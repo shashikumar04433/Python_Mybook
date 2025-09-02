@@ -104,3 +104,7 @@ for fruit in fruits:
 combined = fruits + ["mango", "pineapple"]
 print(combined)
 ```
+# Tuple
+```
+Tuple is a immutable order of collection in Python.
+
