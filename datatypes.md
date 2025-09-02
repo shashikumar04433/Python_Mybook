@@ -107,4 +107,9 @@ print(combined)
 # Tuple
 ```
 Tuple is a immutable order of collection in Python.
-
+```
+**Eg:**
+```
+my_tuple = (10, 20, 30, "hello", True)
+print(my_tuple)
+```
