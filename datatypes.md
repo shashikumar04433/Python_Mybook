@@ -122,8 +122,8 @@ my_tuple = (10, 20, 30, "hello", True)
 print(my_tuple)
 ```
 ```
-## value present or not
-t = (10, 20, 30,20,20,30,40)
+ ## value present or not
+t = (10, 20, 30,5,70,60,40)
 print(60 in t) #False
 print(30 in t) # True
 print(len(t))
@@ -134,4 +134,11 @@ print(t.count(20))
 ## 1 is in 0 index,(2,3,4) is in 1 index and (6,7,8) in second index
 a=(1,(2,3,4),(6,7,8))
 print(a[2][2]) # output 8
+
+## inbuilt functions with Tuples
+print(min(t))
+print(max(t))
+print(sum(t))
+print(type(t))
+
 ```
