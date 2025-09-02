@@ -42,6 +42,11 @@ print(fruits)
 # Slicing the list
 print(fruits[0::3])
 print(fruits[::-1])
+sequence[start : stop : step]
+
+eg:
+a=[1,2,3,4,5,6]
+print(a[0:3:1])
 
 # List of Matrix
 matrix = [[1, 2], [3, 4]]
