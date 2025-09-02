@@ -63,8 +63,11 @@ print(c)
 # Append and Insert diff
 nums = [5, 2, 9, 1]
 nums.append(7)
-nums.insert(2, 4)
+
+
+nums.insert(3,1000)
 print(nums)
+
 nums.sort()
 print(nums)
 
