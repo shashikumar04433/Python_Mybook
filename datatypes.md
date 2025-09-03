@@ -155,6 +155,7 @@ print(min(t))
 print(max(t))
 print(sum(t))
 print(type(t))
+print(sorted(t))
 
 ## min number find without in-build
 
