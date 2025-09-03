@@ -166,4 +166,14 @@ for i in a:
     if i < min_number:
         min_number=i
 print(min_number)
+
+## max number find without in-build
+a=(9,5,6,4,66,77,4)
+
+min_number=a[0]
+
+for i in a:
+    if i > min_number:
+        min_number=i
+print(min_number)
 ```
