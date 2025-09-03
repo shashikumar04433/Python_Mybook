@@ -112,6 +112,15 @@ for fruit in fruits:
 combined = fruits + ["mango", "pineapple"]
 print(combined)
 ```
+**List Real time questions**
+```
+## list realtime operations
+## only add make a sum of from 44 to 78 add and give final value
+a=[1,5,44,55,67,86,56,78,87,876]
+b=a[2:8]
+print(b)
+print(sum(b))
+```
 # Tuple
 ```
 Tuple is a immutable order of collection in Python.
