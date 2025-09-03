@@ -121,6 +121,12 @@ b=a[2:8]
 print(b)
 print(sum(b))
 ```
+```
+#print alternative and then add them
+a=[1,2,3,4,5,6,7,8,9]
+b=a[1:8:2]
+print(sum(b))
+```
 # Tuple
 ```
 Tuple is a immutable order of collection in Python.
